@@ -22,11 +22,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.jaiselrahman.filepicker.view.SquareImage
+    <com.rk.filepicker.view.SquareImage
         android:id="@+id/file_thumbnail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/file_thumbnail"
         app:srcCompat="@drawable/ic_file" />
 
     <TextView
@@ -71,7 +70,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/open_camera_bg"
-        android:contentDescription="@string/open_camera"
         android:padding="20dp"
         android:visibility="gone"
         app:srcCompat="@drawable/ic_camera" />
@@ -81,7 +79,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/open_camera_bg"
-        android:contentDescription="@string/open_camera"
         android:padding="20dp"
         android:visibility="gone"
         app:srcCompat="@drawable/ic_videocam" />
